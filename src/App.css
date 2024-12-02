@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Nền tối */
+  color: red; /* Đổi màu chữ toàn bộ thành đỏ */
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #222; /* Màu nền của navbar tối hơn */
+  color: red; /* Đổi màu chữ navbar thành đỏ */
+  padding: 10px 0;
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card {
+  background-color: #444; /* Màu nền của card tối hơn */
+  color: white; /* Đảm bảo màu chữ trong card là trắng */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: red; /* Đổi màu chữ của tiêu đề chính thành đỏ */
+}
+
+h3 {
+  color: red; /* Đổi màu chữ của tiêu đề phụ thành đỏ */
+}
+
+button {
+  color: white; /* Đảm bảo màu chữ trên nút là trắng */
+  background-color: #4caf50;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+button:disabled {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
